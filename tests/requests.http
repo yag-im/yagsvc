@@ -1,0 +1,31 @@
+POST http://localhost:80/api/apps/search
+content-type: application/json
+Cookie: session=.eJwlzjkOwkAMQNG7uKaYzfY4l4nGm6BNSIW4O5GQfv31PrDnEecTtvdxxQP2l8MG2By1TvS5JHtfXLJ5mBj3OjPQhKUa5ZxYxGkYm1KwSMNGXmzdZQ2mJhi6WqkRnpzko-r9diVqIWTUVceaUxfzQJfOLsIEN-Q64_hrCnx_8YYv1Q.ZmzoTQ.a9r8WPIoCJetG_cjvMoVmZT9OG0
+
+{
+    "app_name": "pink"
+}
+###
+
+GET http://localhost:80/api/apps/421ba7f4-97ad-4c5d-8fbc-e176513516ba
+content-type: application/json
+Cookie: session=.eJwlzjkOwkAMQNG7uKaYzfY4l4nGm6BNSIW4O5GQfv31PrDnEecTtvdxxQP2l8MG2By1TvS5JHtfXLJ5mBj3OjPQhKUa5ZxYxGkYm1KwSMNGXmzdZQ2mJhi6WqkRnpzko-r9diVqIWTUVceaUxfzQJfOLsIEN-Q64_hrCnx_8YYv1Q.ZmzoTQ.a9r8WPIoCJetG_cjvMoVmZT9OG0
+###
+
+GET http://localhost:80/api/accounts/user
+content-type: application/json
+Cookie: session=.eJwlzjkOwkAMQNG7uKaYzfY4l4nGm6BNSIW4O5GQfv31PrDnEecTtvdxxQP2l8MG2By1TvS5JHtfXLJ5mBj3OjPQhKUa5ZxYxGkYm1KwSMNGXmzdZQ2mJhi6WqkRnpzko-r9diVqIWTUVceaUxfzQJfOLsIEN-Q64_hrCnx_8YYv1Q.ZmzoTQ.a9r8WPIoCJetG_cjvMoVmZT9OG0
+###
+
+PUT http://localhost:80/api/accounts/user
+content-type: application/json
+Cookie: session=.eJwlzjkOwkAMQNG7uKaYzfY4l4nGm6BNSIW4O5GQfv31PrDnEecTtvdxxQP2l8MG2By1TvS5JHtfXLJ5mBj3OjPQhKUa5ZxYxGkYm1KwSMNGXmzdZQ2mJhi6WqkRnpzko-r9diVqIWTUVceaUxfzQJfOLsIEN-Q64_hrCnx_8YYv1Q.ZmzoTQ.a9r8WPIoCJetG_cjvMoVmZT9OG0
+
+{
+  "apps_lib": null,
+  "dob": "1982-12-12",
+  "email": "robert@acme.im",
+  "name": null,
+  "tz": "UTC"
+}
+###
