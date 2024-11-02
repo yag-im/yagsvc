@@ -29,10 +29,10 @@ def create_app() -> Flask:
     app = Flask(__name__, static_url_path="/api/static")
     app.config.from_prefixed_env()
     # composite config parameters
-    app.config[
-        "SQLALCHEMY_DATABASE_URI"
-    ] = f'postgresql://{os.environ["SQLDB_USERNAME"]}:{os.environ["SQLDB_PASSWORD"]}@{os.environ["SQLDB_HOST"]}:\
+    app.config["SQLALCHEMY_DATABASE_URI"] = (
+        f'postgresql://{os.environ["SQLDB_USERNAME"]}:{os.environ["SQLDB_PASSWORD"]}@{os.environ["SQLDB_HOST"]}:\
         {os.environ["SQLDB_PORT"]}/{os.environ["SQLDB_DBNAME"]}'
+    )
 
     # initialize flask extensions
     login_manager.init_app(app)
