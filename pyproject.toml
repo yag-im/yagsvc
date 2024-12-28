@@ -3,7 +3,7 @@ build-backend = "poetry_dynamic_versioning.backend"
 requires = ["poetry-core", "poetry-dynamic-versioning"]
 
 [tool.poetry]
-authors = ["acme-im"]
+authors = ["yag-im"]
 description = "yag macroservices"
 keywords = ["signaling"]
 name = "yagsvc"
